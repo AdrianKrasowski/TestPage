@@ -1,0 +1,31 @@
+.footer {
+  background-color: black;
+}
+
+a {
+  color: #807c7c;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #b3bfbf;
+}
+
+a:active {
+  color: black;
+}
+
+.footer-copyright {
+  color: #807c7c;
+}
+
+ul {
+  text-align: center;
+  text-transform: none;
+}
+
+li a {
+  text-transform: none;
+}
