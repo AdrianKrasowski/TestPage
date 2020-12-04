@@ -5,18 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './navigation/top-nav-bar/top-nav-bar.component';
 import { FooterPanelComponent } from './navigation/footer-panel/footer-panel.component';
+import { LangSelectionTabComponent } from './navigation/lang-selection-tab/lang-selection-tab.component';
+import { LanguageService } from './navigation/utility/services/language-provider.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
-    FooterPanelComponent
+    FooterPanelComponent,
+    LangSelectionTabComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, CommonModule],
+  providers: [LanguageService, HttpClient],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

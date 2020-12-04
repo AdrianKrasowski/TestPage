@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <span>Chose display language:</span>
+    <ul class="navbar-nav mr-auto" *ngFor="let language of selectableLanguages">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"
+          ><div class="text-center">
+            <figure>
+              <img
+                src="../../../assets/languages/desaturated/{{
+                  language.shortName
+                }}.png"
+                class="img-fluid flag"
+                alt="Responsive image"
+              />
+              <figcaption>{{ language.fullName }}</figcaption>
+            </figure>
+          </div></a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>

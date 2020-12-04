@@ -1,0 +1,8 @@
+[
+  { "shortName": "de", "fullName": "Deutsch" },
+  { "shortName": "en", "fullName": "English" },
+  { "shortName": "es", "fullName": "Español" },
+  { "shortName": "it", "fullName": "Italian" },
+  { "shortName": "pl", "fullName": "Polski" },
+  { "shortName": "ru", "fullName": "Русские" }
+]
