@@ -1,6 +1,17 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <span>Chose display language:</span>
+  <span>Chose display language:</span>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#languageList"
+    aria-controls="languageList"
+    aria-expanded="true"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse navbar-dark bg-black" id="languageList">
     <ul class="navbar-nav mr-auto" *ngFor="let language of selectableLanguages">
       <li class="nav-item active">
         <a class="nav-link" href="#"
