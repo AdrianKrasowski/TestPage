@@ -9,13 +9,15 @@ import { LangSelectionTabComponent } from './navigation/lang-selection-tab/lang-
 import { LanguageService } from './navigation/utility/services/language-provider.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { HomepageComponent } from './content/homepage/homepage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
     FooterPanelComponent,
-    LangSelectionTabComponent
+    LangSelectionTabComponent,
+    HomepageComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, CommonModule],
   providers: [LanguageService, HttpClient],

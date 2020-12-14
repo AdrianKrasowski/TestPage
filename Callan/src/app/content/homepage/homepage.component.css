@@ -1,0 +1,180 @@
+.stop-studying {
+  height: 200px;
+  background: linear-gradient(to right, black, rgb(117, 178, 17));
+  color:white;
+}
+
+.whitebox {
+  height: 300px;
+  background: white;
+}
+
+.whitebox-title {
+  height: 400px;
+  background: white;
+}
+
+.how-to-start {
+  height: 650px;
+  background: white;
+}
+
+.greenbox {
+  height: 300px;
+  background: linear-gradient(to right, black, rgb(117, 178, 17));
+  color:white;
+}
+
+
+.greenbox-video {
+  height: 350px;
+  background: linear-gradient(to right, black, rgb(117, 178, 17));
+  color: white;
+}
+
+.header-text {
+  margin-top: 150px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vertical-70 {
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  -ms-transform: translateY(-70%);
+  transform: translateY(-70%);
+}
+
+
+.vertical-30 {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
+}
+
+.horizontal-center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+}
+
+.box-title {
+  text-align: center;
+}
+
+.btn-speaking {
+  background-color: black;
+  font-size: larger;
+}
+
+
+.underline {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #63605b;
+  margin: 20px auto;
+}
+
+.underline-green {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: white;
+  margin: 20px auto;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.flag-panel {
+  width: 130px;
+  height: 195px;
+  position: relative;
+  display: inline-block;
+}
+
+.flag-panel .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.flag-panel:hover .img-top {
+  display: inline;
+}
+
+.flag {
+  width: 60%;
+  height: 60%;
+  margin-top: 15%;
+}
+
+.img-speak {
+  margin-left: 20%;
+  width: 60%;
+  height: 60%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.img-qa {
+  margin-left: 20%;
+  width: 80%;
+  height: 60%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.img-hts {
+  width:70%;
+  height: 70%;
+  z-index: 1;
+}
+
+.img-arrow {
+  width:100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.img-darts {
+  width: 80%;
+}
+
+
+.img-car {
+  margin-left: 20%;
+  width: 40%;
+  height: 40%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.header-row {
+  height: 20%;
+  margin-top: 10%;
+}
+
+.greenbox-text{
+  color:white;
+}
+
+.btn-green{
+  background-color: rgb(117, 178, 17);
+}
