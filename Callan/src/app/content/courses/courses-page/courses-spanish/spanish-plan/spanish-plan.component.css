@@ -1,0 +1,57 @@
+.gradient-background {
+  background: linear-gradient(to right, black, rgb(110, 0, 15));
+  color: white;
+}
+.normal-text {
+  line-height: 2em;
+}
+
+.img-fluid {
+  max-height: 14rem;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.card {
+  width: 20rem;
+  border: 3px;
+  border-color: white;
+  background-color: rgba(245, 245, 245, 0.025);
+  color: white;
+}
+.card-header,
+.card-footer {
+  opacity: 1;
+}
+
+.btn-circle.btn-sm {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+}
+.btn-circle.btn-md {
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 12px;
+  text-align: center;
+}

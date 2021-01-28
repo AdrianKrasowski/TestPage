@@ -1,0 +1,25 @@
+.nav-tabs {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-bottom: 0px;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  background-color: black;
+  color: #aaaaaa;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: black;
+  color: white;
+  border-bottom: 0.25rem solid white;
+  border-radius: none;
+}
+
+.nav-tabs .nav-link:hover {
+  color: white;
+  border-bottom: 0.25rem solid white;
+  border-radius: none;
+}

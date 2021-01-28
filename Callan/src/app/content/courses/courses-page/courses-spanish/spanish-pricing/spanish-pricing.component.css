@@ -1,0 +1,43 @@
+.normal-text {
+  line-height: 2em;
+}
+
+.img-fluid {
+  max-height: 20rem;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.nav-tabs {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-bottom: 0px;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: white;
+  color: black;
+  border-bottom: 0.25rem solid grey;
+  border-radius: none;
+}
+
+.nav-tabs .nav-link:hover {
+  color: grey;
+  border-bottom: 0.25rem solid grey;
+  border-radius: none;
+}
